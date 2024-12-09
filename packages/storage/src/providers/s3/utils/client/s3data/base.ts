@@ -79,7 +79,7 @@ const endpointResolver = (
 			!customEndpoint.includes('://'),
 			StorageValidationErrorCode.InvalidCustomEndpoint,
 		);
-		endpoint = new AmplifyUrl(`https://${customEndpoint}`);
+		endpoint = new AmplifyUrl(`http://${customEndpoint}`);
 	} else if (useAccelerateEndpoint) {
 		// this ErrorCode isn't expose yet since forcePathStyle param isn't publicly exposed
 		assertValidationError(

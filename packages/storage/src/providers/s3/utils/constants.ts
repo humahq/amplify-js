@@ -1,7 +1,7 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-export const LOCAL_TESTING_S3_ENDPOINT = 'http://localhost:20005';
+export const LOCAL_TESTING_S3_ENDPOINT = 'localhost:4566';
 
 export const DEFAULT_ACCESS_LEVEL = 'guest';
 

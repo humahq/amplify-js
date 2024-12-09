@@ -44,7 +44,7 @@ export const getRealtimeEndpointUrl = (
 
 	realtimeEndpoint = realtimeEndpoint
 		.replace('https://', protocol)
-		.replace('http://', protocol);
+		.replace('http://', 'ws://');
 
 	return new AmplifyUrl(realtimeEndpoint);
 };
