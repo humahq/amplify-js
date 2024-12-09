@@ -141,16 +141,16 @@ export abstract class AWSWebSocketProvider {
 	): Observable<Record<string, unknown>> {
 		return new Observable(observer => {
 			if (!options?.appSyncGraphqlEndpoint) {
-				observer.error({
-					errors: [
-						{
-							...new GraphQLError(
-								`Subscribe only available for AWS AppSync endpoint`,
-							),
-						},
-					],
-				});
-				observer.complete();
+				// 	observer.error({
+				// 		errors: [
+				// 			{
+				// 				...new GraphQLError(
+				// 					`Subscribe only available for AWS AppSync endpoint`,
+				// 				),
+				// 			},
+				// 		],
+				// 	});
+				// 	observer.complete();
 
 				return;
 			}
