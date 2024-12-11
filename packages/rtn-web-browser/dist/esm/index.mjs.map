@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../src/index.ts"],"sourcesContent":["// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.\n// SPDX-License-Identifier: Apache-2.0\nimport { openAuthSessionAsync } from './apis';\nconst module = { openAuthSessionAsync };\nexport { module };\n"],"names":[],"mappings":";;AAAA;AACA;AAEK,MAAC,MAAM,GAAG,EAAE,oBAAoB;;;;"}
